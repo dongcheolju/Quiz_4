@@ -48,3 +48,14 @@ for row in numbers:
             results.append(n)
 print(results)
 
+
+
+#두 수를 더하는 함수
+def add_number(a, b):
+    result = a + b
+    return result
+
+# 함수 호출 및 반환값 사용
+sum_result = add_number(5, 3)
+print("합계:", sum_result)
+
